@@ -1,0 +1,80 @@
+[03Jan2025 03:16:10.987] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
+[03Jan2025 03:16:10.991] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.5 by Microsoft; OS Linux arch amd64 version 6.5.0-1025-azure
+[03Jan2025 03:16:11.086] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[03Jan2025 03:16:11.139] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/Server-Cabros/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[03Jan2025 03:16:11.328] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Server-Cabros/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[03Jan2025 03:16:11.347] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Server-Cabros/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[03Jan2025 03:16:11.349] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Server-Cabros/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[03Jan2025 03:16:11.350] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Server-Cabros/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[03Jan2025 03:16:11.449] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[03Jan2025 03:16:12.629] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[03Jan2025 03:16:17.775] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[03Jan2025 03:16:17.777] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[03Jan2025 03:16:18.524] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[03Jan2025 03:16:19.015] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.3.22
+[03Jan2025 03:16:19.765] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[03Jan2025 03:16:20.534] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Server-Cabros/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23101!/assets/.mcassetsroot' uses unexpected schema
+[03Jan2025 03:16:20.535] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Server-Cabros/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23101!/data/.mcassetsroot' uses unexpected schema
+[03Jan2025 03:16:22.086] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[03Jan2025 03:16:22.178] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1271 advancements
+[03Jan2025 03:16:22.648] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[03Jan2025 03:16:22.648] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[03Jan2025 03:16:22.650] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[03Jan2025 03:16:22.650] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[03Jan2025 03:16:22.798] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[03Jan2025 03:16:22.821] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[03Jan2025 03:16:22.946] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[03Jan2025 03:16:27.923] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[03Jan2025 03:16:27.945] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[03Jan2025 03:16:28.491] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 54%
+[03Jan2025 03:16:28.982] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
+[03Jan2025 03:16:29.466] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
+[03Jan2025 03:16:29.926] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
+[03Jan2025 03:16:30.448] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
+[03Jan2025 03:16:31.030] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
+[03Jan2025 03:16:31.427] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
+[03Jan2025 03:16:31.950] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
+[03Jan2025 03:16:32.435] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
+[03Jan2025 03:16:32.925] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
+[03Jan2025 03:16:33.434] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
+[03Jan2025 03:16:33.932] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
+[03Jan2025 03:16:34.447] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
+[03Jan2025 03:16:34.930] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 84%
+[03Jan2025 03:16:35.436] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 85%
+[03Jan2025 03:16:36.043] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 87%
+[03Jan2025 03:16:36.463] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 88%
+[03Jan2025 03:16:36.924] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 91%
+[03Jan2025 03:16:37.427] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 92%
+[03Jan2025 03:16:37.925] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 95%
+[03Jan2025 03:16:38.448] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 98%
+[03Jan2025 03:16:38.785] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 10861 ms
+[03Jan2025 03:16:38.785] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (15.878s)! For help, type "help"
+[03Jan2025 03:16:38.801] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[03Jan2025 03:16:44.758] [User Authenticator #1/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Tacitturno is 0aa307b9-a655-4469-a21e-b6d868b03090
+[03Jan2025 03:16:44.894] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Tacitturno[/[::1]:45170] logged in with entity id 1 at (0.5, 130.0, -2.5)
+[03Jan2025 03:16:44.921] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Tacitturno joined the game
+[03Jan2025 03:17:02.108] [User Authenticator #2/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player foguiizide is 8fe326a8-209b-4141-b75d-ed0ddda96089
+[03Jan2025 03:17:02.210] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: foguiizide[/[::1]:33224] logged in with entity id 187 at (10.5, 125.0, -6.5)
+[03Jan2025 03:17:02.214] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: foguiizide joined the game
+[03Jan2025 03:17:31.913] [User Authenticator #3/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Rejjilla is 84e39de9-06da-4edd-9f3f-99d925335d38
+[03Jan2025 03:17:32.009] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Rejjilla[/[::1]:36130] logged in with entity id 234 at (8.5, 129.0, 1.5)
+[03Jan2025 03:17:32.013] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Rejjilla joined the game
+[03Jan2025 03:17:36.473] [User Authenticator #4/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Pascualaa is 3eb33f39-38cb-4ecd-90dc-a974e97ff3c7
+[03Jan2025 03:17:36.558] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Pascualaa[/[::1]:36150] logged in with entity id 247 at (-5.5, 137.0, 2.5)
+[03Jan2025 03:17:36.562] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Pascualaa joined the game
+[03Jan2025 03:17:38.812] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@6cedf6d2[id=<null>,name=Pascualaa,properties={},legacy=false] (/[::1]:43956) lost connection: Timed out
+[03Jan2025 03:17:41.304] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@4af10253[id=<null>,name=Rejjilla,properties={},legacy=false] (/[::1]:43958) lost connection: Timed out
+[03Jan2025 03:17:49.356] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: foguiizide has made the advancement [Stone Age]
+[03Jan2025 03:18:30.655] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Tacitturno has made the advancement [Stone Age]
+[03Jan2025 03:18:50.537] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: foguiizide has made the advancement [Getting an Upgrade]
+[03Jan2025 03:19:12.606] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Tacitturno has made the advancement [Getting an Upgrade]
+[03Jan2025 03:20:57.657] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Rejjilla has made the advancement [Stone Age]
+[03Jan2025 03:21:43.295] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Rejjilla has made the advancement [Getting an Upgrade]
+[03Jan2025 03:22:39.685] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Rejjilla was doomed to fall by foguiizide
+[03Jan2025 03:22:58.610] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Pascualaa has made the advancement [Getting an Upgrade]
+[03Jan2025 03:22:58.611] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Pascualaa has made the advancement [Stone Age]
+[03Jan2025 03:23:28.826] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported Rejjilla to foguiizide
+[03Jan2025 03:24:53.790] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Pascualaa was slain by Rejjilla
+[03Jan2025 03:25:21.974] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: No entity was found
+[03Jan2025 03:25:29.534] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: No entity was found
+[03Jan2025 03:25:40.328] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported Pascualaa to Rejjilla
